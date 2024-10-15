@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1079325884929",
+    "project_id": "descomplica-gastos",
+    "storage_bucket": "descomplica-gastos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079325884929:android:cfdfb3732d7e2983603600",
+        "android_client_info": {
+          "package_name": "br.com.pldevmob.descomplicagastos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGm2VwSVtUjCc3Jad72TVCZMq0PumWGuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
