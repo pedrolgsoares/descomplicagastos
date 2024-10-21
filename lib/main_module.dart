@@ -1,4 +1,4 @@
-import 'package:descomplicagastos/app/src/modules/auth/splash_page.dart';
+import 'package:descomplicagastos/app/src/modules/auth/auth_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class MainModule extends Module {
@@ -7,6 +7,6 @@ class MainModule extends Module {
 
   @override
   void routes(r) {
-    r.child('/', child: (context) => const SplashPage());
+    r.child('/', child: (context) => const AuthPage());
   }
 }
