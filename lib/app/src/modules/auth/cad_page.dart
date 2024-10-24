@@ -1,15 +1,15 @@
-import 'package:descomplicagastos/app/src/modules/auth/widgets/form_autentica_widget.dart';
+import 'package:descomplicagastos/app/src/modules/auth/widgets/form_cadastra_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-class AuthPage extends StatefulWidget {
-  const AuthPage({super.key});
+class CadPage extends StatefulWidget {
+  const CadPage({super.key});
 
   @override
-  State<AuthPage> createState() => _AuthPageState();
+  State<CadPage> createState() => _CadPageState();
 }
 
-class _AuthPageState extends State<AuthPage> {
+class _CadPageState extends State<CadPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,11 +27,11 @@ class _AuthPageState extends State<AuthPage> {
             children: [
               const Icon(Icons.price_check, color: Colors.amber, size: 70,),
               const Text('Bem vindo ao Descomplica Gastos!', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
-              const Text('Faça seu login para ter acesso aos seus gastos', style: TextStyle(fontSize: 12),),
+              const Text('Faça seu cadastro para ter acesso aos seus gastos', style: TextStyle(fontSize: 12),),
               // WidgetCustom do formulario de autenticação
-              const FormAutenticaWidget(),
+              const FormCadastraWidget(),
               // TextButton para ir a tela de novo cadastro
-              TextButton( onPressed: () => Modular.to.navigate('/signup'), child: const Text('Ou clique aqui para se cadastrar'))
+              TextButton( onPressed: () => Modular.to.navigate('/auth'), child: const Text('Ou volte para tela de login'))
 
             ],
           ),
