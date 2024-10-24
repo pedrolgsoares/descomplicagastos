@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 
 class FormAutenticaWidget extends StatefulWidget {
   const FormAutenticaWidget({super.key});
@@ -63,6 +64,7 @@ class _FormAutenticaWidgetState extends State<FormAutenticaWidget> {
                  ScaffoldMessenger.of(context).showSnackBar(
                    const SnackBar(content: Text('Validando o login, aguarde...')),
                  );
+                 Modular.to.navigate('/home/');
                }
              },
              child: const Text('Realizar Login'),
