@@ -1,6 +1,6 @@
 # Despesas - Flutter + Firebase
 
-1. Objetivo do Software
+### 1. Objetivo do Software
 
 Desenvolver um aplicativo mobile para gerenciamento de despesas pessoais, permitindo ao usuário registrar, categorizar e visualizar suas despesas de forma simples e intuitiva.
 
